@@ -52,4 +52,4 @@ console.log(result)
 ## Formation
 
 > Higher education  
->  Specialty: **Real estate expertise and management**
+>  Specialty: Real estate expertise and management
