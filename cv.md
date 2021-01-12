@@ -22,7 +22,7 @@ E-mail: sakla4onakne@mail.ru
 
 ## About me
 
-I'm 30 years old. And I like write a code, make programs, debagging... It's funny find a bug and fix it)  
+I'm 30 years old. And I like write a code, make programs, debugging... It's funny find a bug and fix it)  
 I'm generally happy when program is working.  
 My goal is to become a front-end developer.
 

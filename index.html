@@ -11,37 +11,100 @@
     <div class="page-container">
       <header>
         <section class="introduction">
-          <h1 class="name">Ivan Saklakov</h1>
-          <h3 class="position">Junior frontend developer</h3>
+          <h1 class="introduction__fullName">Ivan Saklakov</h1>
+          <h3 class="introduction__position">Junior frontend developer</h3>
+          <p class="introduction__location"><b>Russia</b>, Chita</p>
         </section>
         <img class="photo" src="images/toCV.jpg" width="120" height="161" />
       </header>
-      <main>
-        <section class="contact section_type1">
-          <h2>Contact</h2>
-          <ul>
-            <li><span class="li-header">Telegram:</span> @MyWay778</li>
-            <li><span class="li-header">E-mail:</span> sakla4onakne@mail.ru</li>
-            <li><span class="li-header">GitHub:</span> @MyWay778</li>
-          </ul>
-        </section>
-        <section class="skills section_type1">
-          <h2>Skills</h2>
-          <ul>
-            <li><b>HTML5, CSS3</b> (adaptive layout, Sass)</li>
-            <li><b>JavaScript</b> (ES6, OOP, FP)</li>
-            <li><b>React</b> (Redux)</li>
-            <li><b>Node.js</b> (Express, Mongoose)</li>
-            <li><b>English</b> (Pre-Intermediate, A2)</li>
-            <li><b>MongoDB, webpack, git</b></li>
-          </ul>
-        </section>
-        <section class="skills section_type1">
-          <h2>About me</h2>
-          <h4>Location</h4>
-        </section>
+      <main class="content">
+        <article class="left-side">
+          <section class="skills cv-section">
+            <h2 class="cv-section-title">Skills</h2>
+            <ul class="skills-list list_default">
+              <li><b>HTML5, CSS3</b> (adaptive layout, Sass)</li>
+              <li><b>JavaScript</b> (ES6, OOP, FP)</li>
+              <li><b>React</b> (Redux)</li>
+              <li><b>Node.js</b> (Express, Mongoose)</li>
+              <li><b>MongoDB, webpack, git</b></li>
+            </ul>
+          </section>
+          <section class="about cv-section">
+            <h2 class="cv-section-title">About me</h2>
+            <p>
+              I'm 30 years old. And I like writing a code, working on programs, debugging... 
+              It's funny to find a bug and fix it)) I'm generally happy when the program is working. 
+              My goal is to become a front-end developer.
+            </p>
+            <p>Ready to relocate.</p>
+          </section>
+          <section class="experience cv-section">
+            <h2 class="cv-section-title">Experience</h2>
+            <div class="experience-section">
+              <h4 class="subtitle">Projects:</h4>
+              <ul class="experience-list">
+                <li class="experience-item">
+                  <p><a href="https://github.com/MyWay778/big-team">Big-team</a> ( social-network, pet-project ) - <i>working now</i></p>
+                  <ul class="subitem">
+                    <li>React</li>
+                    <li>Redux</li>
+                  </ul>
+                </li>
+                <li class="experience-item">
+                  <p><a href="https://github.com/MyWay778/dolister">Dolister</a> ( ToDo list, pet-project ) 
+                    - <i>complete</i></p>
+                  <ul class="subitem">
+                    <li>Vanilla JavaScript</li>
+                    <li>Node.js (Express, Mongoose)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="experience-section">
+              <h4 class="subtitle">Courses:</h4>
+              <ul class="experience-list experience-list_single">
+                <li class="experience-item"> <p class="experience-description">"React, Redux is Samurai's way" (it-kamasutra YouTube channel, free course) - <i>in progress</i></p></li>
+              </ul>
+            </div>
+            <div class="experience-section">
+              <h4 class="subtitle">Work experience:</h4>
+              <ul class="experience-list">
+                <li class="experience-item">Serviceman (a driver), feb 2015 - apr 2021 (6 years)</li>
+                <li class="experience-item">Sales manager, feb 2014 - oct 2014 (8 months)</li>
+              </ul>
+            </div>
+          </section>
+          <code>
+            for (let i = 5; i >= 0; i--) {
+              console.log(i ? i : String.fromCodePoint(0x1F680))
+            }
+          </code>
+        </article>
+        <aside class="right-side">
+          <section class="contacts cv-section">
+            <h2>Contact</h2>
+            <ul class="contact-list list_default">
+              <li><span class="contact-list__header">Telegram:</span>@MyWay778</li>
+              <li><span class="contact-list__header">E-mail:</span> <a href="mailto:">sakla4onakne@mail.ru</a></li>
+              <li><span class="contact-list__header">GitHub:</span> <a href="https://github.com/MyWay778">MyWay778</a></li>
+            </ul>
+          </section>
+          <section class="skills section_type1">
+            <h2>Education</h2>
+            <p>
+              Transbaikal State University 
+              Specialty: Real estate expertise and management 2007 - 2012
+            </p>
+          </section>
+          <section class="skills section_type1">
+            <h2>Languages</h2>
+            <ul>
+              <li>Russian - native</li>
+              <li>English - pre-intermediate (A2)</li>
+            </ul>
+          </section>
+        </aside>
       </main>
-      <footer></footer>
     </div>
   </body>
 </html>
