@@ -14,6 +14,7 @@ h1 {
 h2 {
   font-size: 20px;
 }
+
 a {
   text-decoration: none;
   color: #256580;
@@ -30,7 +31,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 30px 0  5px 15px;
+  padding: 5px 0  5px 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid #424242;
 }
@@ -53,21 +54,26 @@ header {
 }
 
 /*Content and left side*/
-.content {
+.content-block {
   display: flex;
   justify-content: space-between;
 }
 .left-side {
-  padding-right: 15px;
+  flex: 2;
+}
+.right-side {
+  flex: 1;
+  margin-left: 10px;
 }
 
 /*Content general*/
 .cv-section-title {
   padding: 5px 15px;
+  color: #424242;
   background-color: #f0f0f0;
   border-radius: 10px;
 }
-.cv-section:nth-child(n+2) {
+.content-block:nth-child(n+2) {
   margin-top: 25px;
 }
 .list_default {
