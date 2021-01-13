@@ -111,6 +111,43 @@ header {
   padding-left: 45px;
 }
 
+/*Code*/
+.code {
+  max-width: 525px;
+}
+.code-background {
+  width: 525px;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: white;
+  background-color: #2b2b2b;
+  border-radius: 15px;
+  padding: 20px 25px
+}
+.cv-code {
+  /* white-space: pre; */
+}
+.code-keyword {
+  color: #934bbf;
+}
+.code-init {
+  color: #4d6ec9;
+}
+.code-var {
+  color: #4db7c9;
+}
+.code-common {
+  color: #a6d99e;
+}
+.code-object {
+  color: #b0e5f5;
+}
+.code-method {
+  color: #eef09c;
+}
+.code-class {
+  color: #5dc758;
+}
 
 .right-side {
   width: 30%;
