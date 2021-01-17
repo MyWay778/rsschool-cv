@@ -16,22 +16,20 @@ E-mail: sakla4onakne@mail.ru
 - **React** (Redux)
 - **Node.js** (Express, Mongoose)
 - **MongoDB, webpack, git**
-- **English** (Pre-Intermediate, A2)
 
 ---
 
 ## About me
 
-I'm 30 years old. And I like write a code, make programs, debugging... It's funny find a bug and fix it)  
-I'm generally happy when program is working.  
-My goal is to become a front-end developer.
+I'm 30 years old. And I like writing a code, working on programs, debugging... It's funny to find a bug and fix it)) I'm generally happy when the program is working. My goal is to become a front-end developer.
+Ready to relocate.
 
 ---
 
 ```javascript
-const becomeFrontend = true
-let result = becomeFrontend ? 😎 : 😩
-console.log(result)
+for (let i = 5; i >= 0; i--) {
+  console.log(i ? i : String.fromCodePoint(0x1f680))
+}
 ```
 
 ---
@@ -49,7 +47,17 @@ console.log(result)
 
 - **The React is Samurai's way** (it-kamasutra YouTube channel, free course) - _in progress_
 
-## Formation
+### Work experience
 
-> Higher education  
->  Specialty: Real estate expertise and management
+- **Serviceman** (a driver), feb 2015 - apr 2021 (6 years)
+- **Sales manager**, feb 2014 - oct 2014 (8 months)
+
+## Education
+
+[Transbaikal State University](https://en.wikipedia.org/wiki/Transbaikal_State_University)  
+**Specialty**: Real estate expertise and management, 2007 - 2012
+
+## Languages
+
+- **Russian** - native
+- **English** - pre-intermediate (A2)

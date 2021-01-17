@@ -31,7 +31,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 5px 0  5px 15px;
+  padding: 5px 0 5px 15px;
   margin-bottom: 15px;
   border-bottom: 1px solid #424242;
 }
@@ -73,7 +73,7 @@ header {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
-.content-block:nth-child(n+2) {
+.content-block:nth-child(n + 2) {
   margin-top: 25px;
 }
 .list_default {
@@ -88,10 +88,11 @@ header {
 /*About*/
 .about > p {
   text-indent: 15px;
-  margin-top: 10px;
   padding-left: 15px;
 }
-
+.about p:first-of-type {
+  margin-top: 10px;
+}
 /*Experience*/
 .subtitle {
   padding-left: 15px;
@@ -99,7 +100,7 @@ header {
 .experience-section {
   margin-top: 10px;
 }
-.experience-section:nth-of-type(n+2) {
+.experience-section:nth-of-type(n + 2) {
   margin-top: 25px;
 }
 .experience-list {
@@ -112,7 +113,7 @@ header {
 .experience-item {
   margin-top: 10px;
 }
-.project:nth-of-type(n+2) {
+.project:nth-of-type(n + 2) {
   margin-top: 20px;
 }
 .subitem {
@@ -131,7 +132,7 @@ header {
   color: white;
   background-color: #2b2b2b;
   border-radius: 15px;
-  padding: 20px 25px
+  padding: 20px 25px;
 }
 .cv-code {
   /* white-space: pre; */
@@ -164,4 +165,12 @@ header {
 }
 .contact-list__header {
   font-weight: bold;
+}
+
+/*Footer*/
+footer {
+  font-size: 12px;
+  margin-top: 25px;
+  text-align: right;
+  opacity: 0.3;
 }
