@@ -54,6 +54,10 @@ header {
 }
 
 /*Content and left side*/
+.content {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #424242;
+}
 .content-block {
   display: flex;
   justify-content: space-between;
@@ -169,8 +173,15 @@ header {
 
 /*Footer*/
 footer {
+  padding-bottom: 10px;
   font-size: 12px;
   margin-top: 25px;
-  text-align: right;
-  opacity: 0.3;
+  opacity: 0.9;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+footer a {
+  border: none;
 }
