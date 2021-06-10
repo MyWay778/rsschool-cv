@@ -55,7 +55,7 @@ header {
 
 /*Content and left side*/
 .content {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #424242;
 }
 .content-block {
@@ -91,7 +91,6 @@ header {
 
 /*About*/
 .about > p {
-  text-indent: 15px;
   padding-left: 15px;
 }
 .about p:first-of-type {
@@ -169,6 +168,9 @@ header {
 }
 .contact-list__header {
   font-weight: bold;
+}
+.right-side > .cv-section-title:nth-child(n+2) {
+  margin-top: 45px;
 }
 
 /*Footer*/
