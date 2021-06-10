@@ -28,7 +28,7 @@ Ready to relocate.
 
 ```javascript
 for (let i = 5; i >= 0; i--) {
-  console.log(i ? i : String.fromCodePoint(0x1F680))
+  console.log(i ? i : String.fromCodePoint(0x1f680))
 }
 ```
 
@@ -47,14 +47,15 @@ for (let i = 5; i >= 0; i--) {
 
 - **The React is Samurai's way** (it-kamasutra YouTube channel, free course) - _in progress_
 
- ### Work experience
+### Work experience
 
 - **Serviceman** (a driver), feb 2015 - apr 2021 (6 years)
 - **Sales manager**, feb 2014 - oct 2014 (8 months)
 
 ## Education
 
-[Transbaikal State University](https://en.wikipedia.org/wiki/Transbaikal_State_University)   
+[Transbaikal State University](https://en.wikipedia.org/wiki/Transbaikal_State_University)  
+
 **Specialty**: Real estate expertise and management, 2007 - 2012
 
 ## Languages
