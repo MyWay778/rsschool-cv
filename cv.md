@@ -55,6 +55,7 @@ for (let i = 5; i >= 0; i--) {
 ## Education
 
 [Transbaikal State University](https://en.wikipedia.org/wiki/Transbaikal_State_University)  
+
 **Specialty**: Real estate expertise and management, 2007 - 2012
 
 ## Languages
