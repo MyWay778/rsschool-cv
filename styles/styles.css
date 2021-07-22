@@ -71,7 +71,7 @@ header {
 .about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  row-gap: 15%;
 }
 
 /*Content general*/
@@ -216,5 +216,8 @@ footer a {
   }
   .experience-section:nth-of-type(n + 2) {
     margin-top: 0;
+  }
+  .experience-item {
+    margin-top: 5px;
   }
 }
