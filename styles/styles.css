@@ -9,7 +9,7 @@ body {
   letter-spacing: 0.3px;
 }
 h1 {
-  font-size: 36px;
+  font-size: 32px;
 }
 h2 {
   font-size: 20px;
@@ -45,7 +45,7 @@ header {
 }
 
 .introduction__location {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .photo-container {
@@ -94,9 +94,6 @@ header {
 }
 
 /*About*/
-.about > p {
-  padding-left: 15px;
-}
 .about p:first-of-type {
   margin-top: 10px;
 }
@@ -109,6 +106,10 @@ header {
 }
 .experience-section:nth-of-type(n + 2) {
   margin-top: 25px;
+}
+.experience-section__title {
+  display: flex;
+  column-gap: 10px;
 }
 .experience-list {
   padding-left: 50px;
@@ -179,6 +180,7 @@ header {
   margin-top: 45px;
 }
 .block__paragraph {
+  margin-top: 15px;
   padding-left: 15px;
 }
 
